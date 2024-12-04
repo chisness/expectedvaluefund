@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Expected Value Fund</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+        
+        body {
+            font-family: 'Space Mono', monospace;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            line-height: 1.6;
+            color: #333;
+            background: 
+                linear-gradient(120deg, #ffffff 0%, #f0f0f0 100%),
+                radial-gradient(circle at top right, rgba(230, 230, 230, 0.8) 0%, transparent 60%);
+            background-attachment: fixed;
+            min-height: 100vh;
+        }
+        .die-container {
+            display: flex;
+            justify-content: center;
+            margin: 40px 0;
+        }
+        .die {
+            width: 200px;
+            height: 200px;
+            background: white;
+            border: 3px solid #333;
+            border-radius: 20px;
+            position: relative;
+            box-shadow: 4px 4px 12px rgba(0,0,0,0.15);
+            transform: rotate(-4deg);
+        }
+        .dot {
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            background: #333;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            font-size: 24px;
+        }
+        .dot-1 {
+            top: 20px;
+            left: 20px;
+        }
+        .dot-2 {
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .dot-3 {
+            bottom: 20px;
+            right: 20px;
+        }
+        h1 {
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 40px;
+        }
+        .info {
+            font-size: 14px;
+            margin-top: 40px;
+            background: rgba(255, 255, 255, 0.7);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            backdrop-filter: blur(5px);
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section-title {
+            font-weight: bold;
+            margin-bottom: 8px;
+            margin-top: 25px;
+        }
+        a {
+            color: #333;
+            text-decoration: none;
+            border-bottom: 1px solid #333;
+        }
+        a:hover {
+            border-bottom: 2px solid #333;
+        }
+        .manager {
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Expected Value Fund</h1>
+    
+    <div class="die-container">
+        <div class="die">
+            <div class="dot dot-1">E</div>
+            <div class="dot dot-2">V</div>
+            <div class="dot dot-3">F</div>
+        </div>
+    </div>
+
+    <div class="info">
+        <div class="manager">
+            Expected Value Fund is managed by Max Chiswick.
+        </div>
+        
+        <div class="section">
+            <div class="section-title">Interests:</div>
+            - Decision-making tools<br>
+            - Risk management systems<br>
+            - Shopping optimization<br>
+            - Fraud prevention<br>
+            - Travel technology
+        </div>
+
+        <div class="section">
+            <div class="section-title">Investments:</div>
+            - <a href="https://manifold.markets" target="_blank">Manifold Markets</a><br>
+            - <a href="https://www.getclearspace.com/" target="_blank">Clearspace</a><br>
+            - <a href="https://roame.travel/" target="_blank">Roame</a>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Limited Partner:</div>
+            - <a href="https://www.startingline.vc/" target="_blank">Starting Line</a>
+        </div>
+    </div>
+</body>
+</html>
