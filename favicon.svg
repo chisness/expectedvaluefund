@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Background square with rounded corners -->
+  <rect x="5" y="5" width="90" height="90" rx="10" fill="white" stroke="#333333" stroke-width="5"/>
+  
+  <!-- Dots with letters -->
+  <g fill="#333333">
+    <!-- Top left dot -->
+    <circle cx="25" cy="25" r="12"/>
+    <text x="25" y="27" font-family="Arial" font-size="14" fill="white" text-anchor="middle" alignment-baseline="middle" dominant-baseline="middle">E</text>
+    
+    <!-- Center dot -->
+    <circle cx="50" cy="50" r="12"/>
+    <text x="50" y="52" font-family="Arial" font-size="14" fill="white" text-anchor="middle" alignment-baseline="middle" dominant-baseline="middle">V</text>
+    
+    <!-- Bottom right dot -->
+    <circle cx="75" cy="75" r="12"/>
+    <text x="75" y="77" font-family="Arial" font-size="14" fill="white" text-anchor="middle" alignment-baseline="middle" dominant-baseline="middle">F</text>
+  </g>
+</svg>
