@@ -52,8 +52,8 @@
         }
         .dot {
             position: absolute;
-            width: 32px;
-            height: 32px;
+            width: 46px;
+            height: 46px;
             background: #333;
             border-radius: 50%;
             display: flex;
@@ -61,20 +61,34 @@
             justify-content: center;
             color: white;
             font-weight: bold;
-            font-size: 20px;
+            font-size: 24px;
         }
-        .dot-1 {
-            top: 16px;
-            left: 16px;
+        .dot-e {
+            top: 20px;
+            left: 20px;
         }
-        .dot-2 {
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
+        .dot-v {
+            top: 20px;
+            right: 20px;
         }
-        .dot-3 {
-            bottom: 16px;
-            right: 16px;
+        .dot-f {
+            bottom: 20px;
+            left: 20px;
+        }
+        .dot-half {
+            bottom: 20px;
+            right: 20px;
+            background: none;
+            overflow: hidden;
+        }
+        .dot-half::after {
+            content: '';
+            position: absolute;
+            width: 46px;
+            height: 23px;
+            background: #333;
+            border-radius: 23px 23px 0 0;
+            bottom: 0;
         }
         h1 {
             text-align: center;
@@ -121,9 +135,10 @@
     <a href="mailto:max@expectedvaluefund.com" style="text-decoration: none; border: none;">
         <div class="die-container">
             <div class="die">
-                <div class="dot dot-1">E</div>
-                <div class="dot dot-2">V</div>
-                <div class="dot dot-3">F</div>
+                <div class="dot dot-e">E</div>
+                <div class="dot dot-v">V</div>
+                <div class="dot dot-f">F</div>
+                <div class="dot dot-half"></div>
             </div>
         </div>
     </a>
@@ -144,9 +159,13 @@
 
         <div class="section">
             <div class="section-title">Investments:</div>
+            - Pimlico Trading</a><br>
+            - <a href="https://www.shopencore.ai/" target="_blank">Encore</a><br>
+            - <a href="https://www.roundabout.tech/" target="_blank">Roundabout</a><br>
+            - <a href="https://www.codebuff.com/" target="_blank">Codebuff</a><br>s
             - <a href="https://manifold.markets" target="_blank">Manifold Markets</a><br>
-            - <a href="https://www.getclearspace.com/" target="_blank">Clearspace</a><br>
             - <a href="https://roame.travel/" target="_blank">Roame</a>
+            - <a href="https://www.getclearspace.com/" target="_blank">Clearspace</a><br>
         </div>
 
         <div class="section">
